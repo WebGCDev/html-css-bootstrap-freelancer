@@ -24,6 +24,10 @@ Typography
   --cello: #3a546d;
 }
 
+.font-copyright {
+  font-size: smaller;
+}
+
 /*
 ******
 Debug
