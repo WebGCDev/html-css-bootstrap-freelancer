@@ -30,6 +30,14 @@ Debug
 ******
 */
 
+.jq-bordi {
+  border: 1px solid black;
+}
+
+.row .col-sm-12 {
+  border: 1px solid black;
+}
+
 /*
 ******
 Common
@@ -58,8 +66,9 @@ nav {
   background-color: var(--lightseagreen);
 }
 
-.row .col-sm-12 {
-  border: 1px solid black;
+.about {
+  background-color: var(--lightseagreen);
+  color: var(--white);
 }
 
 /*
