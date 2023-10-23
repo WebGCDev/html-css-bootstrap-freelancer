@@ -42,6 +42,26 @@ Body
 ******
 */
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+nav {
+  color: var(--white);
+  background-color: var(--madison);
+}
+
+.jumbotron {
+  color: var(--white);
+  background-color: var(--lightseagreen);
+}
+
+.row .col-sm-12 {
+  border: 1px solid black;
+}
+
 /*
 ******
 Header
