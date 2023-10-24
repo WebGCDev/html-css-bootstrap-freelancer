@@ -38,10 +38,6 @@ Debug
   border: 1px solid black;
 }
 
-.row .col-sm-12 {
-  border: 1px solid black;
-}
-
 /*
 ******
 Common
@@ -53,21 +49,6 @@ Common
 Body
 ******
 */
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-nav {
-  color: var(--white);
-  background-color: var(--madison);
-}
-
-a {
-  text-decoration: none;
-}
 
 .jumbotron {
   color: var(--white);
@@ -95,11 +76,57 @@ Header
 ******
 */
 
+header {
+  background-color: var(--madison);
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: medium;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+#jumbo {
+  background-color: var(--lightseagreen);
+  color: var(--white);
+}
+
+.fa-solid .fa-star {
+  padding: 0 10px;
+  font-size: 20px;
+}
+
 /*
 ******
 Main
 ******
 */
+
+.divisore-sx::before {
+  content: '';
+  display: inline-block;
+  width: 14%;
+  height: 3px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.divisore-dx::after {
+  content: '';
+  display: inline-block;
+  width: 14%;
+  height: 3px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  vertical-align: middle;
+}
 
 /*
 ******
