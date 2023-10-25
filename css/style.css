@@ -50,16 +50,6 @@ Body
 ******
 */
 
-.jumbotron {
-  color: var(--white);
-  background-color: var(--lightseagreen);
-}
-
-.about {
-  background-color: var(--lightseagreen);
-  color: var(--white);
-}
-
 footer .top-footer {
   background-color: var(--cello);
   color: var(--white);
@@ -80,14 +70,6 @@ header {
   background-color: var(--madison);
   color: white;
   font-weight: bold;
-}
-
-.navbar-brand {
-  font-size: medium;
-}
-
-.navbar-toggler {
-  padding: 0;
 }
 
 #jumbo {
@@ -124,6 +106,28 @@ Main
   height: 3px;
   background-color: white;
   border: 1px solid white;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.divisore-sxblack::before {
+  content: '';
+  display: inline-block;
+  width: 14%;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.divisore-dxblack::after {
+  content: '';
+  display: inline-block;
+  width: 14%;
+  height: 3px;
+  background-color: black;
+  border: 1px solid black;
   border-radius: 50px;
   vertical-align: middle;
 }
