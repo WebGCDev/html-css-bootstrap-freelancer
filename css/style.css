@@ -50,16 +50,6 @@ Body
 ******
 */
 
-footer .top-footer {
-  background-color: var(--cello);
-  color: var(--white);
-}
-
-footer .bottom-footer {
-  background-color: var(--madison);
-  color: var(--white);
-}
-
 /*
 ******
 Header
@@ -132,8 +122,30 @@ Main
   vertical-align: middle;
 }
 
+/* Sezione About */
+
+#about {
+  background-color: var(--lightseagreen);
+}
+
+/* Sezione Form */
+
+form .btn {
+  background-color: var(--lightseagreen);
+  border: none;
+}
+
 /*
 ******
 Footer
 ******
 */
+footer .top-footer {
+  background-color: var(--cello);
+  color: var(--white);
+}
+
+footer .bottom-footer {
+  background-color: var(--madison);
+  color: var(--white);
+}
